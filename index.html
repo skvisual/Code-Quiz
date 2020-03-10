@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,24 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="style.css" rel="stylesheet">
-  <script defer src="script.js"></script>
+  <script defer src="script2.js"></script>
   <title>Quiz App</title>
 </head>
 <body>
+
   <div class="container">
-    <div id="question-container" class="hide">
-      <div id="question">Question</div>
-      <div id="answer-buttons" class="btn-grid">
-        <button id="btnA" class="btn">Answer 1</button>
-        <button id="btnB" class="btn">Answer 2</button>
-        <button id="btnC" class="btn">Answer 3</button>
-        <button id="btnD" class="btn">Answer 4</button>
-      </div>
+    
+    <div id="timer">
+      <h3 class="timeDisplay" id="time"></h3>
     </div>
-    <div class="controls">
-      <button id="startBtn" class="star-btn btn">Start</button>
-      <button id="nextBtn" class="next-btn btn hide">Next</button>
+
+    <div class = "quiz" id="quizBox">
+      <p class = "text" id="question">text here</p>
+    </div>
+
+    <div class="answers" id="answerBox">
+      <button class = "start" id="startBtn">START</button>
+    </div>
+
+    <div class="buttons" id="controls">
+      <div class="rowA">
+        <button class = "button" id="btnA">A</button>
+        <button class = "button" id="btnB">B</button>
+      </div>
+      <div class="rowB">
+        <button class = "button" id="btnC">C</button>
+        <button class = "button" id="btnD">D</button>
+      </div> 
+    </div>
+
     </div>
   </div>
+
+
+
+
+
+
 </body>
 </html>
+

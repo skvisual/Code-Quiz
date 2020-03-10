@@ -11,47 +11,58 @@ body {
 }
 
 .container {
+    justify-content: center;
     padding: 10px;
-    width: 700px;
-    max-width: 80%;
+    width: 600px;
+    max-width: 75%;
     background-color: white;
     
 }
 
-.controls {
+.answers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+.timeDisplay {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quiz {
+    display: none;
+}
+
+.text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hide {
+.buttons {
+    height: 100px;
+    display: flex;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
     display: none;
 }
 
-.start-btn {
-    font-size: 30px;
-    font-weight: bold;
-    padding: 15px;
+.rowB {
+    position: relative;
+    top: 10px;
 }
-
-.next-btn {
-    font-size: 24px;
-    font-weight: bold;
-    padding: 15px;
-}
-.btn-grid {
-    display: grid;
-    padding: 8px;
-    gap: 5px;
-    margin: 15px;
-}
-
-.btn {
-    background-color: skyblue;
-    font-weight: bold;
-    border: 1px solid darkblue;
-}
-
-
-
 
